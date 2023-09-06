@@ -78,3 +78,7 @@ gh is available via WinGet, scoop, Chocolatey, Conda, and as downloadable MSI.
 WinGet
 Install:	Upgrade:
 winget install --id GitHub.cli	winget upgrade --id GitHub.cli
+
+Custom components
+special prop to use custom compoennt as wrapper {prop.children} reserved name children
+do not support classname by default -  we need 
