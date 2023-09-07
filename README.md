@@ -82,3 +82,13 @@ winget install --id GitHub.cli	winget upgrade --id GitHub.cli
 Custom components
 special prop to use custom compoennt as wrapper {prop.children} reserved name children
 do not support classname by default -  we need 
+
+if state update depends ona  previous state, use setUpdate with function call.
+
+
+2 way binding to clearforms, use value field
+
+Child to parent component communication
+pass defined function pointer in parent to children as part of props and invoke it in the child
+
+https://github.com/academind/react-complete-guide-code/tree/04-react-state-events
