@@ -29,7 +29,7 @@ const App = ()=> {
   const addExpenseHandler = (expense) => {
     console.log('In App.js');
     console.log(expense);
-    setNewExp([expense, ...newExp])
+    setNewExp((prevState)=>{return [expense, ...prevState]})
   };
 
   return (
